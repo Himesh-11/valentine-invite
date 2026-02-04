@@ -165,7 +165,7 @@ const WhistledownPaper = ({ onFinish }: { onFinish: () => void }) => {
 };
 
 // --- COMPONENT: MUSIC TOGGLE ---
-const MusicToggle = ({ audioRef, isPlaying, toggle }: any) => {
+const MusicToggle = ({isPlaying, toggle }: any) => {
     return (
       <button
         onClick={toggle}
@@ -341,8 +341,10 @@ export default function App() {
                     animate={{ opacity: 1, scale: 1 }}
                     className="paper-texture w-full p-12 text-center shadow-2xl border-4 double border-[#c5a059]"
                     >
-                    <h1 className="font-royal text-3xl text-[#1a2e3f] mb-4">It is a Match!</h1>
-                    <p className="font-hand text-4xl text-[#1a2e3f] mt-4">You have made me the happiest man in the Ton.</p>
+                    <h1 className="font-royal text-3xl text-[#1a2e3f] mb-4">Splendid!</h1>
+                    <p className="font-hand text-4xl text-[#1a2e3f] mt-4">You have made this gentleman the happiest man in the Ton.</p>
+                    <p className="font-serif text-m text-[#1a2e3f] mt-4">Your beloved,</p>
+                    <p className="font-serif text-xl text-[#1a2e3f] mt-2">Lucifer Morningstar (or Muffin).</p>
                     </motion.div>
                 )}
 
